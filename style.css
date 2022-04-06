@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255,255,255,0.2);
+    color: #000;
+    width: 100%;
+}
+/* nav{
+    background-color: rgb(26,30,42);
+    color: white;
+} */
+.r{
+    color: white;
+}
+.card{
+    background-color: rgba(30, 30, 30, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255,255,255, 0.2);
+    position: relative;
+    bottom: 0.4em;
+    align-items: center;
+    text-align: center;
+}
+.b{
+    background-color: rgb(243,226,193);
+position: relative;
+left: 4em;
+border: 2px solid black;
+border-radius: 5px;
+}
+.c{
+    background-color: rgb(243,226,193);
+}
+.portfolio{
+    display: flex;
+    border-radius: 20%;
+
+}
+.portfolio img{
+    width: 1rem;
+}
+.j{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between
+
+
+}
+.container p{
+    position: relative;
+    left: 32em;
+    /* color: white; */
+}
+.container img{
+    width: 10rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+footer img{
+    width: 5rem;
+}
+.card img{
+    width: 5em;
+}
+.container{
+    border-radius: 20px;
+}
+.d{
+    /* background-color: black; */
+    color: white;
+}
+.socials{
+    background-color:rgb(243,226,193);
+
+}
+.socials img{
+    padding-right: 0em;
+}
